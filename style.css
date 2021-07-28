@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+body {
+  background-color: #f6faf7;
+}
+
+p {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.2em;
+}
+
+h1, h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-item {
+  align-items: center;
+}
+
+.card-white {
+  text-align: center;
+  align-items: center;
+  height: auto;
+  background: white;
+  padding: 30px;
+  /* border: none; */
+}
+
+.img-circle {
+  display:inherit;
+  margin: auto;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.btn {
+  position: relative;
+  background-color: #A0AA7A;
+  width: 130px;
+  padding: 20px;
+  border-radius: 100px 8px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+  z-index: 5;
+}
+
+.btn:hover {
+  background-color: #F96565;
+}
+
+
+.shadow {
+    animation: text-shadow 13s infinite alternate;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  @keyframes text-shadow {
+    0% {text-shadow: 1px 1px 0px #ccc}
+    2% {text-shadow: 1.5px 1px 0.5px #ccc}
+    5% {text-shadow: 2px 2px 1px #ccc}
+    7% {text-shadow: 2.4px 2.4px 1.3px #333}
+    9% {text-shadow: 2.7px 2.7px 1.7px #333}
+    10% {text-shadow: 3px 3px 2px #333}
+    13% {text-shadow: 5px 4.5px 3px #333}
+    17% {text-shadow: 7px 8px 5px #333}
+    20% {text-shadow: 8px 10px 6px #999}
+    25% {text-shadow: 9.1px 10.5px 6px #999}
+    30% {text-shadow: 9.3px 11px 6px #999}
+    35% {text-shadow: 9.7px 12.5px 6px #999}
+    40% {text-shadow: 10px 13px 6px #ccc}
+    50% {text-shadow: 8px 11.5px 5px #ccc}
+    60% {text-shadow: 6px 10px 4px #ccc}
+    70% {text-shadow: 4px 9px 3.5px #ccc}
+    80% {text-shadow: 2px 8px 3px #ccc}
+    90% {text-shadow: 1.5px 6.5px 2px #eee}
+    100% {text-shadow: 1px 5px 1px #eee}
+  }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
